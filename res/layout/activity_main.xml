@@ -8,9 +8,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.listviewtest.MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <ListView 
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+		<!-- 这样ListView占据了整个布局的空间 -->
+    </ListView>
 
 </RelativeLayout>
